@@ -1,7 +1,7 @@
 <template>
   <el-container>
     <div class="config-form">
-      <h2>PalWorld INI配置文件生成器</h2>
+      <h2>幻兽帕鲁 PalWorld服务器INI配置文件生成器</h2>
       <el-row class="row-bg" justify="space-evenly">
         <el-col :span="6">
           <el-upload
@@ -89,7 +89,7 @@ const miaoshu = ref([
     label: "默认：False\n神秘的UNKO事件关闭开启 (True/False)",
     type: "bool",
   },
-  { name: "BanListURL", label: "封锁名单 (目前来自官方)", type: "string" },
+  { name: "BanListURL", label: "【此项勿改】封锁名单 (目前来自官方)", type: "string" },
   { name: "BaseCampMaxNum", label: "基地最大数量", type: "none" },
   {
     name: "BaseCampWorkerMaxNum",
@@ -181,7 +181,7 @@ const miaoshu = ref([
   },
   {
     name: "bUseAuth",
-    label: "是否使用授权 (作用未知)/nPS: 应该是向官方验证的服务",
+    label: "【此项勿改】是否使用授权 (作用未知)/nPS: 应该是向官方验证的服务",
     type: "bool",
   },
   {
